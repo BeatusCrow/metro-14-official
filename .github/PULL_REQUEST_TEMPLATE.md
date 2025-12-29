@@ -1,36 +1,48 @@
-<!-- Guidelines: https://docs.spacestation14.io/en/getting-started/pr-guideline -->
+## Что в данном PR?
+<!-- Кратко расскажите об изменениях, которые вы предлагаете внести в сборку-->
 
-## About the PR
-<!-- What did you change? -->
+## Зачем / Почему
+<!-- Объясните, почему вы предложили изменения. Возможно, это решение какой-то проблемы, описанной в дискорд канале... -->
 
-## Why / Balance
-<!-- Discuss how this would affect game balance or explain why it was changed. Link any relevant discussions or issues. -->
+## Технические детали
+<!-- ОБЯЗАТЕЛЬНО!!! Расскажите, какие файлы были изменены. Это поможет в дальнейшем быстрее находить требуемые системы. -->
+<!-- 
+Измененные _**.cs**_ файлы:
+* что-то там (например, Content.Client/_Metro14/TestFolder/testfile.cs)
+* где-то там
+Измененные _**.yml**_ файлы:
+* что-то там (например, Resources/Prototype/_Metro14/Clothing/OuterClothing/Coats/noirdet.yml)
+* где-то там
+Измененные _**.ftl**_ файлы:
+* что-то там (например, Resources/Locale/ru-RU/_Metro14/boombox/boombox.ftl)
+* где-то там
+-->
+<!-- При изменении файлов официальных разработчиков игры Space Station 14 обязательно указывайте на них стрелкой 
+Измененные _**.cs**_ файлы:
+* Content.Client/_Metro14/TestOfficialFolder/testfile.cs <-- код оффоф
+* Content.Client/_Metro14/TestOursFolder/testfile.cs
+-->
 
-## Technical details
-<!-- Summary of code changes for easier review. -->
+## Медиа
+<!-- Если вы изменили визуальную состовляющую уже существующих вещей или добавили что-то новое, то ЖЕЛАТЕЛЬНО добавить скриншот с этим предметом. -->
 
-## Media
-<!-- Attach media if the PR makes in-game changes (clothing, items, features, etc).
-Small fixes/refactors are exempt. Media may be used in SS14 progress reports with credit. -->
+## Требования
+<!-- Подтвердите следующее, поставив крестик в квадратных скобках без пробелов внутри (например, [X] ): -->
+- [ ] Я прочитал и следую инструкциям [Pull Request and Changelog Guidelines](https://docs.spacestation14.com/en/general-development/codebase-info/pull-request-guidelines.html).
+- [ ] Я добавил медиа в этот PR, или для этого не требуется внутриигровая демонстрация.
+<!-- Вы должны понимать, что несоблюдение вышеизложенного может привести к закрытию вашего PR-аккаунта по усмотрению сопровождающего -->
 
-## Requirements
-<!-- Confirm the following by placing an X in the brackets without spaces inside (for example: [X] ): -->
-- [ ] I have read and am following the [Pull Request and Changelog Guidelines](https://docs.spacestation14.com/en/general-development/codebase-info/pull-request-guidelines.html).
-- [ ] I have added media to this PR or it does not require an in-game showcase.
-<!-- You should understand that not following the above may get your PR closed at maintainer’s discretion -->
+## Кардинальные изменения
+<!-- Список серьезных изменений, которые поддерживают большое колличество систем. Жетально при изменении любого файла официальных разработчиков игры Space Station 14 писать об этом. -->
 
-## Breaking changes
-<!-- List any breaking changes, including namespaces, public class/method/field changes, prototype renames; and provide instructions for fixing them.
-This will be posted in #codebase-changes. -->
-
-**Changelog**
-<!-- Add a Changelog entry to make players aware of new features or changes that could affect gameplay.
-Make sure to read the guidelines and take this Changelog template out of the comment block in order for it to show up.
-Changelog must have a :cl: symbol, so the bot recognizes the changes and adds them to the game's changelog. -->
+**Журнал изменений**
+<!-- Добавьте запись в список изменений, чтобы игроки были в курсе новых функций или изменений, которые могут повлиять на игровой процесс.
+Обязательно ознакомьтесь с рекомендациями и уберите этот шаблон списка изменений из блока комментариев, чтобы он отображался.
+В списке изменений должен быть символ :cl:, чтобы бот распознал изменения и добавил их в список изменений игры. -->
 <!--
 :cl:
-- add: Added fun!
-- remove: Removed fun!
-- tweak: Changed fun!
-- fix: Fixed fun!
+- add: Добавлено веселья!
+- remove: Удалено веселье...
+- tweak: Измененно веселье.
+- fix: Исправлено веселье!
 -->
