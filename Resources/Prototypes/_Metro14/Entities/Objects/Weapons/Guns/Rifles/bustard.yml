@@ -17,7 +17,7 @@
     fireRate: 2.5
     damageMultiplierModified: 0.9
     soundGunshot:
-      path: /Audio/_Metro14/Weapons/Guns/Gunshot/bastard.ogg
+      path: /Audio/_Metro14/Weapons/Guns/Gunshots/bastard.ogg
   - type: ChamberMagazineAmmoProvider
     soundRack:
       path: /Audio/Weapons/Guns/Cock/ltrifle_cock.ogg
