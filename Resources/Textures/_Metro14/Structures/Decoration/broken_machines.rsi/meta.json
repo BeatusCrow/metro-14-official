@@ -1,5 +1,7 @@
 {
   "version": 1,
+  "license": "Stalker14 CLA",
+  "copyright": "Make Stalker",
   "size": {
     "x": 32,
     "y": 32
